@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/time"
+        android:icon="@drawable/ic_time"
+        android:title="Время и дата"
+        />
+    <item
+        android:id="@+id/phone"
+        android:icon="@drawable/ic_phone"
+        android:title="Позвонить"
+        />
+    <item
+        android:id="@+id/image"
+        android:icon="@drawable/ic_image"
+        android:title="Картинка"
+        />
+</menu>

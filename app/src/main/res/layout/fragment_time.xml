@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.TimeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/currentDataTimes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/btnTime"
+            android:layout_marginBottom="15dp"
+            android:textSize="18sp"/>
+        <Button
+            android:id="@+id/btnTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:text="Изменение времени" />
+        <Button
+            android:id="@+id/btnData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Изменить дату"
+            app:layout_constraintTop_toBottomOf="@+id/btnTime"
+            android:layout_marginTop="15dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
+
